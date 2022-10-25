@@ -1,16 +1,15 @@
-import type { NextPage } from 'next'
- 
+import { NextPage } from "next";
 
 
-
-
-const Home: NextPage = () => {
+const Ome: NextPage= () => {
   return (
     
       
-<h1>Hello Welcome</h1>
+// /* <h1>Hello Welcome</h1> 
+ <button><h2>We are friends</h2></button>
+ 
       
   )
 }
 
-export default Home
+export default Ome;

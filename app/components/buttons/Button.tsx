@@ -3,9 +3,9 @@
 
 const Button1=()=>{
     return (
-       <div><h1>Hello Fani</h1> </div>
+    //    <div><h1>Hello Fani</h1> </div>
      
-    //  <button><h4>nop</h4></button>
+     <button><h1>We are friends</h1></button>
      
     )
 }

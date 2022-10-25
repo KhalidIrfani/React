@@ -2,10 +2,11 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import pages from './service'
+ 
 
 import Button1 from '../components/buttons/Button';
 
+// import './service';
  
 const Home: NextPage = () => {
   return (
