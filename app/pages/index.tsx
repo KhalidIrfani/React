@@ -11,7 +11,7 @@ import cardItems from '../components/carditems/CardItems';
  
 const Home: NextPage = () => {
   return (
-   <Button1 data="we are ready"/>
+   <Button1 data="we are ready" color="red"/>
     
     
   )
