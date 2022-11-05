@@ -4,18 +4,20 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
  
 
-import Button1 from '../components/buttons/Button';
-import cardItems from '../components/carditems/CardItems'; 
 
+import cardItems from '../components/carditems/CardItems'; 
+import Button from '../components/buttons/Button';
+import {chakra} from '@chakra-ui/react';
+ import Studentlist from '../components/Studentlist/Studentlist';
 // import './service';
  
 const Home: NextPage = () => {
-  return (
-   <Button1 data="we are ready" color="red"/>
-    
-    
-  )
-   
+ return(
+//   <Button  data="Select"/>
+ // <studentlist/>
+ <Studentlist/>
+ 
+ )
   
 }
 

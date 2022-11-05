@@ -1,19 +1,16 @@
+import { chakra } from "@chakra-ui/react";
+ 
 
-type Button ={
-    data:string;
-    color:string
+
+type Button={
+    data:string
 }
 
-const Button1=(prop:Button)=>{
-
-    console.log("prop" )
+const Button=(prop:Button)=>{
     return (
-        
-    //    <div><h1>Hello Fani</h1> </div>
-     
-     <button ><h1>We are friends{ prop.data} or {prop.color}</h1></button>
-     
+        <button>We are friends{prop.data}</button>
     )
 }
 
-export default Button1;
+export default Button;
+ 
