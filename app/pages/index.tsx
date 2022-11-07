@@ -9,13 +9,15 @@ import cardItems from '../components/carditems/CardItems';
 import Button from '../components/buttons/Button';
 import {chakra} from '@chakra-ui/react';
  import Studentlist from '../components/Studentlist/Studentlist';
+import Groot from '../components/buttons/Button';
 // import './service';
  
 const Home: NextPage = () => {
  return(
 //   <Button  data="Select"/>
  // <studentlist/>
- <Studentlist/>
+//  <Studentlist/>
+ <Groot data=''/>
  
  )
   

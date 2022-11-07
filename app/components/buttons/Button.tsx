@@ -6,11 +6,11 @@ type Button={
     data:string
 }
 
-const Button=(prop:Button)=>{
+const Groot=(prop:Button)=>{
     return (
         <button>We are friends{prop.data}</button>
     )
 }
 
-export default Button;
+export default Groot;
  
