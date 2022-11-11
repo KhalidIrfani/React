@@ -1,26 +1,14 @@
-import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
- 
+import Hero from './Component/Hero'
 
-import Button from '../components/buttons/Button';
-import {chakra} from '@chakra-ui/react';
- import Studentlist from '../components/Studentlist/Studentlist';
-import Groot from '../components/buttons/Button';
-// import Profile from '../components/buttons/Button';  
-import cardItem from '../components/carditems/CardItems';    
+export default function Home() {
+  return (
 
-// import './service';
- 
-const Home: NextPage = () => {
- return(
- 
-//  <Button data='select'/>
- <Groot data='set'/>
 
-)
-  
+    <Hero />
+
+
+  )
 }
-
-export default Home

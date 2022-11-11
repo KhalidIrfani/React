@@ -1,26 +1,89 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+.Navi{
+  margin-top: 1.5rem;
+  background-color: white;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+.hepertext .Navigation #basic-nav-dropdown{
+  color: black;
+  font-size: 15px;
+   font-weight: bold;
   }
-  body {
-    color: white;
-    background: black;
-  }
+
+.hepertext .Link{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  
+}
+
+.Iframe i{
+ margin-right: 1.5rem;
+ font-weight: bold;
+ font-size: 15px;
+}
+
+.Input{
+  border: none;
+  border-radius: 2px;
+  size: 4rem;
+}
+
+
+.h1{
+   margin-left: 6rem;
+   color: black;
+   background-size: cover;
+}
+
+.p1{
+  margin-left: 6rem;
+  color: rgb(68, 66, 66);
+  font-size: 17px;
+  font-weight: bolder;
+
+} 
+
+.btn{
+  margin-left:7rem ;
+  border-radius: 8px;
+}
+
+.vr{
+  border: 2px;
+  color: solid black;
+}
+
+
+.industry{
+  margin-top: 6rem;
+}
+
+
+.btn1{
+  color: rgb(14, 197, 14);
+  border: none;
+  border-radius: none;
+  margin-left: 2rem;
+}
+ 
+.industry1 h2{
+  margin-top: 8rem;
+text-align: center;
+}
+
+
+.btn2{
+  color: black;
+  border: none;
+  border-radius: 2px;
+  margin-left: 2rem;
+}
+
+
+.btn2:hover{
+  color: white;
+  background-color: green;
+  
+  
 }
