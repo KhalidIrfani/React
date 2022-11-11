@@ -1,9 +1,16 @@
- 
+
+ type cardItem={
+        count:number
+ }
 
 const cardItem = () =>{
+
+      
+
 return(
      
-        <button>Hello world</button>
+                <button>Addition 1</button>
+
   
 )
 }

@@ -1,4 +1,5 @@
 import { chakra } from "@chakra-ui/react";
+import { profile } from "console";
  
 
 
@@ -13,4 +14,17 @@ const Groot=(prop:Button)=>{
 }
 
 export default Groot;
+
+
+
+// class Profile React.Component{
+//     constructor(){
+//         super()
+//     }
+//     return
+//     (
+//         <div><h1>Hello world</h1></div>
+//     )
+// }
  
+// export default profile;
