@@ -1,5 +1,8 @@
 
 import { Container, Row, Col } from "react-bootstrap";
+import factory from "public/factory.png";
+import agricultural from "public/agricultural.png"
+import Image from "next/image";
 
 const Industry = () => {
     return (
@@ -7,7 +10,7 @@ const Industry = () => {
             <Container className="industry">
 
                 <Row >
-                    <Col> <img src="public/factory-workshop-interior-mac" alt="factory" />
+                    <Col> <Image src={factory} alt="factory" width={500} height={300}></Image>
                     </Col>
 
                     <Col><h2>Why Hypindustry and what is it?</h2>
@@ -26,7 +29,7 @@ const Industry = () => {
                     </Col>
 
                     <Col>
-                        <img src="public/factory-workshop-interior-mac" alt="factory" />
+                        <Image src={agricultural} alt="factory" width={500} height={300}></Image>
                     </Col>
                 </Row>
             </Container>
@@ -36,31 +39,50 @@ const Industry = () => {
                 <Row>
                     <h2>Selling on HypeIndustry</h2>
 
-                    <Col>
+                    <Col className="btn3">
                         <button className="btn2">Become a Seller</button>
-                    </Col>
-                    <Col>
-                        <button className="btn2 ">CREATE A LISTING</button>
-                    </Col>
-                    <Col>
-                        <button className="btn2 ">CREATE A LISTING</button>
+                        <button className="btn2">Become a Seller</button>
+                        <button className="btn2">Become a Seller</button>
+                        <button className="btn2">Become a Seller</button>
+
                     </Col>
 
-                    <Col>
-                        <button className="btn2 ">CREATE A LISTING</button>
-                    </Col>
                 </Row>
             </Container>
 
 
-            <Container className=" industry">
+            {/* <Container className="industry3">
                 <Row>
                     <Col> <select className="form-select">
-                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odio nam rerum nemo rem ut necessitatibus, sint voluptatem, facilis expedita sequi unde voluptate laboriosam dolore? Autem quaerat rerum cumque laudantium?</p>
+                        <option value="">                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odio nam rerum nemo rem ut necessitatibus, sint voluptatem, facilis expedita sequi unde voluptate laboriosam dolore? Autem quaerat rerum cumque laudantium?</p>
+                        </option>                    </select>
+                    </Col>
+                </Row>
+
+                <Row>
+                    <Col> <select className="form-select">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odio nam rerum nemo rem ut necessitatibus, sint voluptatem, facilis expedita sequi unde voluptate laboriosam dolore? Autem quaerat rerum cumque laudantium?</p>
                     </select>
                     </Col>
                 </Row>
-            </Container>
+
+
+                <Row>
+                    <Col> <select className="form-select">
+                        <option value="">   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odio nam rerum nemo rem ut necessitatibus, sint voluptatem, facilis expedita sequi unde voluptate laboriosam dolore? Autem quaerat rerum cumque laudantium?</p>
+                        </option>
+                    </select>
+                    </Col>
+                </Row>
+
+
+                <Row>
+                    <Col> <select className="form-select">
+                        <option value="">   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odio nam rerum nemo rem ut necessitatibus, sint voluptatem, facilis expedita sequi unde voluptate laboriosam dolore? Autem quaerat rerum cumque laudantium?</p></option>
+                    </select>
+                    </Col>
+                </Row>
+            </Container> */}
 
 
 

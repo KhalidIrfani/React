@@ -1,11 +1,13 @@
 import { Navbar, Container, Nav, NavDropdown, NavLink } from "react-bootstrap";
+import logo from "/public/logo.png"
 import Image from "next/image"
 
 
 const Header = () => (
     <Navbar expand="lg" className="Navi">
+        <Image src={logo} alt="logo" width={40} height={20}  ></Image>
+
         <Container>
-            <img src="public/logo" alt="home" width={20} height={20} />
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
