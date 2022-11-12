@@ -5,11 +5,8 @@ import agricultural from "public/agricultural.png"
 import Image from "next/image";
 import Question from "./Question";
 import Footer from "./Footer";
-
+import Shipping from "./Shipping";
 const Industry = () => {
-
-    // const [open, setOpen] = useState(false);
-
     return (
         <>
             <Container className="industry">
@@ -26,11 +23,11 @@ const Industry = () => {
 
             <Container className="industry">
 
-                <Row>
+                <Row className="H2" >
 
-                    <Col className="H2">
+                    <Col className="H3">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quod adipisci recusandae enim quibusdam sed cum obcaecati nulla dolorum fugiat voluptas tenetur doloremque accusantium nihil quasi eveniet aliquid sit ullam rem est, expedita nam quis cumque quisquam. Incidunt, deleniti animi.</p>
-                        <button className="btn1">Read more </button>
+                        <button className="btn1">Read more <span><i className="bi bi-chevron-right"></i></span> </button>
                     </Col>
 
                     <Col>
@@ -56,6 +53,7 @@ const Industry = () => {
             </Container>
 
             <Question/>
+            <Shipping/>
             <Footer/>
   
         </>

@@ -76,6 +76,10 @@
   margin-left: 2rem;
 }
 
+.industry .H3{
+  margin-top: 6rem;
+}
+
 .industry1 h2 {
   margin-top: 8rem;
   text-align: center;
@@ -145,5 +149,17 @@
 
 
 #example-collapse-text{
-  margin-left: 7rem;
+  margin-left: 20rem;
+  margin-top: 1.5rem;
+  border: none;
+  border-style: none;
+}
+
+
+.Shipping{
+  margin-top: 7rem;
+}
+
+.Box{
+  font-size: 40px;
 }

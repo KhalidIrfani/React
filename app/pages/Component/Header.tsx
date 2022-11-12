@@ -62,7 +62,7 @@ const Header = () => (
             <div className="Iframe">
             <i className="bi bi-person Person">Login</i></div>
 
-            <input className="Input" type="search" placeholder="Brand, Modules" />
+            <input className="Input" type="search" placeholder="Brand, Modules " />
 
 
         </Container>
