@@ -1,14 +1,22 @@
 
 .Navi{
   margin-top: 1.5rem;
-  background-color: white;
+  background-color:white;
 }
+
+.Navi .Img1{
+  background-color: black;
+  margin-left: 9rem;
+}
+
+ 
 
 .hepertext .Navigation #basic-nav-dropdown{
   color: black;
   font-size: 15px;
    font-weight: bold;
    border: none;
+   margin-left: 2rem;
   }
 
 .hepertext .Link{
@@ -21,7 +29,7 @@
 .Iframe i{
  margin-right: 1.5rem;
  font-weight: bold;
- font-size: 15px;
+ font-size: 20px;
 }
 
 .Input{
@@ -58,6 +66,12 @@
 
 .industry{
   margin-top: 6rem;
+   
+}
+
+.H2{
+  border-left: 1px solid black;
+
 }
 
 

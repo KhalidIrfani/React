@@ -13,7 +13,7 @@ const Industry = () => {
                     <Col> <Image src={factory} alt="factory" width={500} height={300}></Image>
                     </Col>
 
-                    <Col><h2>Why Hypindustry and what is it?</h2>
+                    <Col className="H2"><h2>Why Hypindustry and what is it?</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quod adipisci recusandae enim quibusdam sed cum obcaecati nulla dolorum fugiat voluptas tenetur doloremque accusantium nihil quasi eveniet aliquid sit ullam rem est, expedita nam quis cumque quisquam. Incidunt, deleniti animi.</p>
                     </Col>
                 </Row>
@@ -23,7 +23,7 @@ const Industry = () => {
 
                 <Row>
 
-                    <Col>
+                    <Col className="H2">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quod adipisci recusandae enim quibusdam sed cum obcaecati nulla dolorum fugiat voluptas tenetur doloremque accusantium nihil quasi eveniet aliquid sit ullam rem est, expedita nam quis cumque quisquam. Incidunt, deleniti animi.</p>
                         <button className="btn1">Read more </button>
                     </Col>

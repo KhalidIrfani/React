@@ -5,7 +5,7 @@ import Image from "next/image"
 
 const Header = () => (
     <Navbar expand="lg" className="Navi">
-        <Image src={logo} alt="logo" width={40} height={20}  ></Image>
+        <Image className="Img1" src={logo} alt="logo" width={50} height={70}  ></Image>
 
         <Container>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -60,7 +60,7 @@ const Header = () => (
 
 
             <div className="Iframe">
-                <i className="far fa-user">Login</i> </div>
+            <i className="bi bi-person Person">Login</i></div>
 
             <input className="Input" type="search" placeholder="Brand, Modules" />
 
