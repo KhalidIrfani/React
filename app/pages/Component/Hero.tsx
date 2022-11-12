@@ -3,6 +3,7 @@ import Header from "./Header"
 import Industry from "./industry";
 import hero from "/public/hero.png"
 import Image from "next/image";
+import Question from "./Question";
 
 
 
@@ -25,6 +26,7 @@ const Hero = () => {
             </Row>
 
             <Industry />
+           
 
         </>
     )

@@ -1,10 +1,15 @@
-
-import { Container, Row, Col } from "react-bootstrap";
+import { useState } from "react";
+import { Container, Row, Col, Collapse } from "react-bootstrap";
 import factory from "public/factory.png";
 import agricultural from "public/agricultural.png"
 import Image from "next/image";
+import Question from "./Question";
+import Footer from "./Footer";
 
 const Industry = () => {
+
+    // const [open, setOpen] = useState(false);
+
     return (
         <>
             <Container className="industry">
@@ -50,92 +55,9 @@ const Industry = () => {
                 </Row>
             </Container>
 
-
-
-
-            {/* <Container className="industry3">
-                <Row>
-                    <Col> <select className="form-select">
-                        <option value="">                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odio nam rerum nemo rem ut necessitatibus, sint voluptatem, facilis expedita sequi unde voluptate laboriosam dolore? Autem quaerat rerum cumque laudantium?</p>
-                        </option>                    </select>
-                    </Col>
-                </Row>
-
-                <Row>
-                    <Col> <select className="form-select">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odio nam rerum nemo rem ut necessitatibus, sint voluptatem, facilis expedita sequi unde voluptate laboriosam dolore? Autem quaerat rerum cumque laudantium?</p>
-                    </select>
-                    </Col>
-                </Row>
-
-
-                <Row>
-                    <Col> <select className="form-select">
-                        <option value="">   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odio nam rerum nemo rem ut necessitatibus, sint voluptatem, facilis expedita sequi unde voluptate laboriosam dolore? Autem quaerat rerum cumque laudantium?</p>
-                        </option>
-                    </select>
-                    </Col>
-                </Row>
-
-
-                <Row>
-                    <Col> <select className="form-select">
-                        <option value="">   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odio nam rerum nemo rem ut necessitatibus, sint voluptatem, facilis expedita sequi unde voluptate laboriosam dolore? Autem quaerat rerum cumque laudantium?</p></option>
-                    </select>
-                    </Col>
-                </Row>
-            </Container> */}
-
-            <footer className="fotter">
-
-
-                <Container >
-                    <Row >
-                        <Col>
-
-                            <button className="Fotter"><h4>HYPEINDUSTRY</h4></button>
-                            <button className="Fotter">HYPEINDUSTRY Concept</button>
-                            <button className="Fotter">Buying Guide</button> <br/>
-                            <button className="Fotter">Selling Guide</button>
-
-
-                        </Col>
-                        <Col>
-                            <button className="Fotter"><h4>HYPEOFFERS</h4></button> <br />
-                            <button className="Fotter">FOOT Wears</button> <br />
-                            <button className="Fotter">Pearl</button> <br />
-                            <button className="Fotter">Ascessories</button>
-
-
-
-
-                        </Col>
-                        <Col>
-                            <button className="Fotter"><h4>Shipping</h4></button> <br />
-                            <button className="Fotter">Shipping For Buyers</button> <br />
-                            <button className="Fotter">Shipping For Seller</button>
-
-
-                        </Col>
-                        <Col>
-                            <button className="Fotter"><h4>Contact US</h4></button>
-                            <button className="Fotter">Shipping@hypeindustry.com</button>
-                            <button className="Fotter">Sale@hypeindustry.com</button>
-
-
-
-                        </Col>
-                    </Row>
- 
-                    <hr className="hr" />
-
-
-                </Container>
-               
-
-            </footer>
-
-
+            <Question/>
+            <Footer/>
+  
         </>
     )
 
