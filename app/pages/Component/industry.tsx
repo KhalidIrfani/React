@@ -6,6 +6,7 @@ import Image from "next/image";
 import Question from "./Question";
 import Footer from "./Footer";
 import Shipping from "./Shipping";
+import Buying from "./Buying";
 const Industry = () => {
     return (
         <>
@@ -53,6 +54,7 @@ const Industry = () => {
             </Container>
 
             <Question/>
+            <Buying/>
             <Shipping/>
             <Footer/>
   

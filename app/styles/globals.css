@@ -123,8 +123,7 @@
   margin-top: 2rem;
   background-image: url(../public/hero.png);
   background-repeat: no-repeat;
-  margin-right: 0px;
-  margin-left: 20rem;
+  background-position: right;
 }
 
 
@@ -162,4 +161,14 @@
 
 .Box{
   font-size: 40px;
+}
+
+
+.number{
+  font-size: 3rem;
+}
+
+.buy{
+  /* background-image: url(../public/i\ \(1\).png); */
+  margin-top: auto;
 }

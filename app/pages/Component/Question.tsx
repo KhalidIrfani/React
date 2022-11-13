@@ -16,7 +16,7 @@ const Question = () => {
                     <h6>How do I sell on HypeIndustry? <span> <Image src={arrow} alt='' /></span> </h6>
                 </button>
                 <Collapse in={open}>
-                    <div id="example-collapse-text">
+                    <div id="example-collapse-text"> 
                         <p>To ensure the quality and authenticity of all items on our marketplace, we only allow a select group of stores and sellers that <br />
                             have passed our verification process, to sell on our platform. We encourage you to request to become a seller by filling out all <br />
                             the required information. We ll notify you as soon as your request has been approved.</p>
