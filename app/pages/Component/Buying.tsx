@@ -57,6 +57,8 @@ return(
            </Col>
             
         </Row>
+
+        <button className="btn5">Learn More</button>
     </Container>
 )
 }

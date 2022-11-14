@@ -68,10 +68,15 @@
 
 }
 
+.Row .btn{
+  background-color: #67CBAB;
+  color: white;
+}
 
-.btn1 {
-  color: cyan;
-  border: none;
+
+.btn1{
+  color: #67CBAB;
+border: none;
   border-radius: none;
   margin-left: 2rem;
 }
@@ -98,7 +103,7 @@
 
 .btn2:hover {
   color: white;
-  background-color: cyan;
+  background: #67CBAB;
 
 
 }
@@ -171,4 +176,14 @@
 .buy{
   /* background-image: url(../public/i\ \(1\).png); */
   margin-top: auto;
+}
+
+.buy .btn5{
+  color: white;
+  background-color: #67CBAB;
+  border: none;
+  border-radius: 10px;
+  font-size: 25px;
+  margin-left: 30rem;
+  
 }

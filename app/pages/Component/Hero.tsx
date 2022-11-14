@@ -19,7 +19,7 @@ const Hero = () => {
                 <Col>    <h1 className="h1">New marketplace that <br /> allow you to buy bulk</h1>
                     <p className="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Veniam quisquam labore odit sapiente officiis sunt ex error, ad  esse ut saepe ipsum <br /> numquam tenetur aliquam architecto dolorum voluptates nesciunt eveniet?</p>
 
-                    <button className="btn btn-success">Read more</button>
+                    <button className="btn">Read more</button>
                 </Col>
 
 
