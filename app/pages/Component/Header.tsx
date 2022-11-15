@@ -1,7 +1,7 @@
 import { Navbar, Container, Nav, NavDropdown, NavLink } from "react-bootstrap";
 import logo from "/public/logo.png"
 import Image from "next/image"
-
+import Link from "next/link";
 
 const Header = () => (
     <Navbar expand="lg" className="Navi">
@@ -60,7 +60,7 @@ const Header = () => (
 
 
             <div className="Iframe">
-            <i className="bi bi-person Person">Login</i></div>
+                <i className="bi bi-person Person">Login</i></div>
 
             <input className="Input" type="search" placeholder="Brand, Modules " />
 
