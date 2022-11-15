@@ -6,7 +6,11 @@ import page3 from "public/page3.jpg"
 import page4 from "public/page4.jpg"
 import i2 from "public/i2.png"
 import i1 from "public/i1.png"
-
+import any from "public/any.jpg"
+import brand from "public/brand.jpg"
+import free from "public/free.jpg"
+import flip from "public/flip.jpg"
+import Footer from "./Footer"
 import Image from "next/image"
 
 const Page=()=>{
@@ -86,9 +90,46 @@ const Page=()=>{
         </Row>
 
 
-        
+<h1>The PROS of Such Platform</h1>
 
-    </Container>
+<Row>
+    <Col>
+    <i className="bi bi-box-seam  Box1"></i>           
+
+    <h6>Shipping</h6>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus consequatur provident distinctio dolorum incidunt totam nobis sapiente consequuntur saepe iusto!</p>
+    </Col>
+    <Col>
+    <Image src={any} alt=''/>
+    <h6>Anonymithy</h6>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur molestias fugit repudiandae vero voluptatibus ex. Laboriosam voluptates distinctio temporibus earum!</p>
+    </Col>
+    <Col>
+    <Image src={brand} alt=''/>
+    <h6>Brand Integrity</h6>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint libero modi eius nemo sed et ex excepturi aut commodi aliquid!</p></Col>
+</Row>
+
+
+<Row>
+           
+        <Col>
+        <Image src={free} alt=''/>
+        <h6>Freedom</h6>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati unde quia, ad consectetur optio excepturi quas delectus deleniti quam earum saepe autem atque, nulla tempora quibusdam quae soluta</p>
+        </Col>
+      
+        <Col>
+        <Image src={flip} alt=''/>
+        <h6>Flash Flipping</h6>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati unde quia, ad consectetur optio excepturi quas delectus deleniti quam earum saepe autem atque, nulla tempora quibusdam quae soluta</p>
+        </Col>
+        <Col>
+        </Col>
+        </Row>
+
+</Container>
+<Footer/>
  
 </>
     )
