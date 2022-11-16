@@ -8,7 +8,7 @@ const Page3 = () => {
     return (
         <>
             <Header />
-            <h3>Buying on HypeIndustry is Simple!</h3>
+            <h2 className="page3h3">Buying on HypeIndustry is Simple!</h2>
             <Buying />
 
             <Question />

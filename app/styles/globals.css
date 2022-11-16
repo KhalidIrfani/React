@@ -149,9 +149,10 @@ border: none;
   border-style: none;
 }
 
-.hr{
-  margin: 5rem;
-  color: black;
+ 
+.copy {
+  margin: 3rem;
+  text-align: center;
 }
 
 
@@ -209,7 +210,6 @@ border: none;
   margin-top: 2rem;
   background-color: black;
   color: white;
- backdrop-filter: ;
    
 }
 
@@ -217,6 +217,14 @@ border: none;
   padding-top: 3rem;
   text-align: center;
   color: black;
+}
+
+
+.page3h3{
+  text-align: center;
+color: black;
+margin: 2rem;
+font-weight: bold;
 }
 
  

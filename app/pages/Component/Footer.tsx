@@ -43,15 +43,19 @@ const Footer = () => {
 
 
                         </Col>
+
+                        
+
+                       <div className="copy"> 
+                       <hr/>
+                       &copy; 2022 HYPEINDISTRY</div>
                     </Row>
-
-                 
-
+                   
 
                 </Container>
-
-                <hr className="hr" />
+             
             </footer>
+           
         </>
 
     )

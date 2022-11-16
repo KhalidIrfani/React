@@ -44,7 +44,7 @@ const Page = () => {
 
                 <Row className="page">
                     <Col>
-                        <h2 className="Pageh1">Always the same issue through the years</h2>
+                        <h2>Always the same issue through the years</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati unde quia, ad consectetur optio excepturi quas delectus deleniti quam earum saepe autem atque, nulla tempora quibusdam quae soluta cumque, repudiandae maxime. Expedita eligendi veritatis aut, illo non obcaecati eaque doloremque?</p>
                     </Col>
 
@@ -59,7 +59,7 @@ const Page = () => {
                         <Image src={page4} alt='' />
                     </Col>
                     <Col>
-                        <h2 className="Pageh1">Utopia</h2>
+                        <h2>Utopia</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati unde quia, ad consectetur optio excepturi quas delectus deleniti quam earum saepe autem atque, nulla tempora quibusdam quae soluta cumque, repudiandae maxime. Expedita eligendi veritatis aut, illo non obcaecati eaque doloremque?</p>
                     </Col>
                 </Row>
@@ -68,7 +68,7 @@ const Page = () => {
 
                 <Row className="page">
                     <Col>
-                        <h2 className="Pageh1">Reality</h2>
+                        <h2>Reality</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati unde quia, ad consectetur optio excepturi quas delectus deleniti quam earum saepe autem atque, nulla tempora quibusdam quae soluta cumque, repudiandae maxime. Expedita eligendi veritatis aut, illo non obcaecati eaque doloremque?</p>
                     </Col>
                     <Col>
