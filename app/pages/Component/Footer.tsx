@@ -45,12 +45,12 @@ const Footer = () => {
                         </Col>
                     </Row>
 
-                    <hr className="hr" />
+                 
 
 
                 </Container>
 
-
+                <hr className="hr" />
             </footer>
         </>
 

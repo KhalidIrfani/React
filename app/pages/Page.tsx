@@ -1,4 +1,4 @@
-import Header from "./Header"
+import Header from "./Component/Header"
 import { Container, Row, Col } from "react-bootstrap"
 import Page1 from "public/Page1.jpg"
 import page2 from "public/page2.jpg"
@@ -10,7 +10,7 @@ import any from "public/any.jpg"
 import brand from "public/brand.jpg"
 import free from "public/free.jpg"
 import flip from "public/flip.jpg"
-import Footer from "./Footer"
+import Footer from "./Component/Footer"
 import Image from "next/image"
 
 const Page = () => {
@@ -18,33 +18,33 @@ const Page = () => {
         <>
             <Header />
             <Container>
-                <Row>
+                <Row className="page">
                     <Col>
-                        <h1>Why HypeIndustry and What is it excatly?</h1>
+                        <h2 className="Pageh1">Why HypeIndustry and What is it excatly?</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati unde quia, ad consectetur optio excepturi quas delectus deleniti quam earum saepe autem atque, nulla tempora quibusdam quae soluta cumque, repudiandae maxime. Expedita eligendi veritatis aut, illo non obcaecati eaque doloremque?</p>
                     </Col>
 
                     <Col>
-                        <Image src={Page1} alt='' />
+                        <Image  src={Page1} alt='' width={630} height={400}/>
                     </Col>
                 </Row>
 
-                <Row>
+                <Row className="page">
 
                     <Col>
                         <Image src={page2} alt='' />
                     </Col>
                     <Col>
-                        <h1>20 years of relationship + experience</h1>
+                        <h2 className="Pageh1">20 years of relationship + experience</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati unde quia, ad consectetur optio excepturi quas delectus deleniti quam earum saepe autem atque, nulla tempora quibusdam quae soluta cumque, repudiandae maxime. Expedita eligendi veritatis aut, illo non obcaecati eaque doloremque?</p>
                     </Col>
 
                 </Row>
 
 
-                <Row>
+                <Row className="page">
                     <Col>
-                        <h1>Always the same issue through the years</h1>
+                        <h2 className="Pageh1">Always the same issue through the years</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati unde quia, ad consectetur optio excepturi quas delectus deleniti quam earum saepe autem atque, nulla tempora quibusdam quae soluta cumque, repudiandae maxime. Expedita eligendi veritatis aut, illo non obcaecati eaque doloremque?</p>
                     </Col>
 
@@ -54,21 +54,21 @@ const Page = () => {
                 </Row>
 
 
-                <Row>
+                <Row className="page">
                     <Col>
                         <Image src={page4} alt='' />
                     </Col>
                     <Col>
-                        <h1>Utopia</h1>
+                        <h2 className="Pageh1">Utopia</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati unde quia, ad consectetur optio excepturi quas delectus deleniti quam earum saepe autem atque, nulla tempora quibusdam quae soluta cumque, repudiandae maxime. Expedita eligendi veritatis aut, illo non obcaecati eaque doloremque?</p>
                     </Col>
                 </Row>
 
 
 
-                <Row>
+                <Row className="page">
                     <Col>
-                        <h1>Reality</h1>
+                        <h2 className="Pageh1">Reality</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati unde quia, ad consectetur optio excepturi quas delectus deleniti quam earum saepe autem atque, nulla tempora quibusdam quae soluta cumque, repudiandae maxime. Expedita eligendi veritatis aut, illo non obcaecati eaque doloremque?</p>
                     </Col>
                     <Col>
@@ -78,7 +78,7 @@ const Page = () => {
                 </Row>
 
 
-                <Row>
+                <Row className="page">
                     <Col>
                         <Image src={i1} alt='' />
                     </Col>
@@ -90,9 +90,9 @@ const Page = () => {
                 </Row>
 
 
-                <h3>The PROS of Such Platform</h3>
+                <h3 className="pageh3">The PROS of Such Platform</h3>
 
-                <Row>
+                <Row className="page">
                     <Col>
                         <i className="bi bi-box-seam  Box1"></i>
 
@@ -111,7 +111,7 @@ const Page = () => {
                 </Row>
 
 
-                <Row>
+                <Row className="page">
 
                     <Col>
                         <Image src={free} alt='' />

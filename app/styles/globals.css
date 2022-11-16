@@ -1,7 +1,9 @@
 .Navi {
   margin-top: 1.5rem;
   background-color: white;
+   
 }
+ 
 
 .Navi .Img1 {
   background-color: black;
@@ -23,6 +25,7 @@
   font-size: 15px;
   font-weight: bold;
 
+
 }
 
 .Iframe i {
@@ -39,13 +42,12 @@
 
 
 .h1 {
-  margin-left: 6rem;
+ 
   color: black;
   background-size: cover;
 }
 
 .p1 {
-  margin-left: 6rem;
   color: rgb(68, 66, 66);
   font-size: 17px;
   font-weight: bolder;
@@ -136,7 +138,7 @@ border: none;
   background-color: rgb(22, 21, 21);
   color: white;
   margin-top: 2rem;
-  height: 300px;
+  height: auto;
 }
 
 .fotter .Fotter{
@@ -149,6 +151,7 @@ border: none;
 
 .hr{
   margin: 5rem;
+  color: black;
 }
 
 
@@ -192,3 +195,28 @@ border: none;
   color: #67CBAB;
   font-size: 40px;
 }
+
+
+           /* //  Pages Css/ */
+
+
+.page{
+  padding-top: 1rem;
+  
+}
+
+.Pageh1 { 
+  margin-top: 2rem;
+  background-color: black;
+  color: white;
+ backdrop-filter: ;
+   
+}
+
+.pageh3{
+  padding-top: 3rem;
+  text-align: center;
+  color: black;
+}
+
+ 
