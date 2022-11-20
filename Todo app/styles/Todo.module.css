@@ -1,0 +1,24 @@
+ 
+
+.input_Container{
+    position: relative;
+    margin-top: 5%;
+    width: 30%;
+    left: 30%;
+    padding: 0 3rem 2rem 2rem;
+    border-radius: 1rem;
+    background-color: rgb(9, 99, 99);
+}
+
+.input_Conatiner h1{
+   align-items: center;
+
+}
+.input{
+    align-items: center;
+
+   
+}
+.btn_primary{
+    background-color: rgb(138, 138, 224);
+}
