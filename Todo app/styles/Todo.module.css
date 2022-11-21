@@ -1,9 +1,10 @@
- 
 
 .input_Container{
+    text-align: center;
+    font-size: auto;
     position: relative;
     margin-top: 5%;
-    width: 30%;
+    width: 40%;
     left: 30%;
     padding: 0 3rem 2rem 2rem;
     border-radius: 1rem;
@@ -16,9 +17,11 @@
 }
 .input{
     align-items: center;
+    font-size: 30px;
 
    
 }
 .btn_primary{
     background-color: rgb(138, 138, 224);
+   font-size: 30px;
 }
