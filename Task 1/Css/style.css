@@ -1,0 +1,540 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eae3e3;
+}
+
+li {
+    list-style: none;
+}
+
+/* Dash board */
+.dashboard {
+    width: 55%;
+}
+
+.dashboard li {
+    font-weight: 500;
+}
+
+.firstli {
+    background-color: white;
+    color: blue;
+}
+
+.sidebar a {
+    color: white;
+}
+
+.sidebar a:hover {
+    padding: 10px;
+    background-color: white;
+    color: blue;
+    border-radius: 3px;
+}
+
+/* Headeer */
+.naviLink {
+    font-size: .87rem;
+    font-weight: 600;
+}
+
+.profile {
+    margin-left: 50%;
+}
+
+.dots {
+    top: 18%;
+    right: 17%;
+}
+
+/* mianContainer */
+.hed2 {
+    background-color: #eae3e3;
+}
+
+.quizA:hover {
+    background-color: rgb(250, 163, 1);
+    color: white;
+}
+
+/* Side Container */
+.sideContainer li {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.head4 {
+    background-color: rgb(38, 207, 142);
+}
+
+
+.numina {
+    height: 35px;
+    width: 35px;
+}
+
+.boxes .biz {
+    font-size: .46rem;
+}
+
+a {
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+.rightSlideBar {
+    border-radius: .5rem;
+}
+
+.rightSlideBar .title {
+    background-color: #49c295;
+    /* border-radius: .7rem .7rem 0 0; */
+}
+
+.rightSlideBar li {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+}
+
+.rightSlideBar ul:nth-child(2) li:nth-child(1) {
+    padding: 0 !important;
+    position: relative;
+    top: .6rem;
+    /* background-color: #f1c02c; */
+}
+
+.rightSlideBar ul:nth-child(2) li:nth-child(1) div:nth-child(2) {
+    height: 45px;
+    /* background-color: #423714; */
+}
+
+.free {
+    text-align: center;
+    border-radius: 20px !important;
+    width: 50px;
+    height: 25px;
+    background: green;
+}
+
+.boxes div div {
+    padding: 0 5px;
+    margin-left: 2px;
+}
+
+.boxes span {
+    font-size: 5px;
+    text-align: center;
+    position: relative;
+    top: -.5rem;
+    right: -.3rem;
+}
+
+/* Card Section */
+.card {
+    border: none;
+}
+
+.cardDiv {
+    height: 5.4vh;
+    width: 99%;
+    background-color: lightgray;
+}
+
+.cardDiv i {
+    font-size: 25px;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+}
+
+.cRcle {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(0, 17, 255);
+    right: -3rem;
+    top: -2rem;
+    border: 1px solid white;
+}
+
+.cRcle i {
+    position: relative;
+    right: 2.2rem;
+    top: .5rem
+}
+
+.tax {
+    font-size: 20px;
+}
+
+.carding p {
+    font-size: .9rem;
+}
+
+.buttn1 {
+    background: rgb(23, 167, 107);
+}
+.carDies .Dies{
+    font-size: .6rem;
+}
+
+/* Media Query all */
+
+@media only screen and (max-width:1024px) {
+
+    img {
+        height: 30px;
+    }
+
+    .profile {
+        margin-left: 26rem;
+    }
+
+    .profile span {
+        position: relative;
+        top: -.7rem;
+    }
+
+    .profile .dots {
+        position: relative;
+        top: -.3rem;
+    }
+
+    .hed h5 {
+        font-size: 1rem;
+    }
+
+    .mini1 h5 {
+        font-size: .8rem;
+    }
+
+    .mini1 i {
+        font-size: 10px;
+    }
+
+    .quizA h5 {
+        font-size: .9rem;
+    }
+
+    .head4 h4 {
+        font-size: .9rem;
+    }
+
+    .textHow {
+        font-size: 1.2rem;
+    }
+
+    .hed2 h3 {
+        font-size: 1.3rem;
+    }
+
+    .question1 h4 {
+        font-size: 1.2rem;
+    }
+
+    .question1 p {
+        font-size: .77rem;
+        margin-bottom: .8rem;
+    }
+
+    .bgPrimary ul {
+        font-size: 12px;
+    }
+
+    .numi {
+        text-align: center;
+        margin-left: -.77rem;
+        font-size: 10px;
+        width: 1.1rem;
+        height: 20px;
+    }
+
+    .numi span {
+        font-size: 8px;
+    }
+
+    .siding {
+        font-size: 8px;
+        margin-right: -1rem;
+    }
+
+    .buttn {
+        margin-left: -.33rem;
+    }
+
+    .buttn2 {
+        padding-right: -.25rem;
+        font-size: .7rem;
+    }
+
+    .carding {
+        font-size: .65rem;
+    }
+
+    .fre1 {
+        margin-right: .15rem;
+    }
+
+    .cardinh6 h6 {
+        font-size: .25rem;
+    }
+
+    .Dies {
+        font-size: 5px;
+    }
+
+    .cardDiv {
+        font-size: 15px;
+    }
+
+    .cardDiv i {
+        font-size: 15px;
+    }
+
+    .carDies span {
+        font-size: 3px;
+    }
+
+    .cRcle {
+        right: .5rem;
+    }
+
+    .cRcle i {
+        font-size: px;
+        right: 1.9rem;
+    }
+
+    .carding h5 {
+        font-size: 15px;
+    }
+
+    .carding p {
+        font-size: 12px;
+    }
+
+    .fonts {
+        font-size: 14px;
+    }
+
+    .card-body button {
+        margin-left: -.5rem;
+    }
+
+}
+
+@media only screen and (max-width:786px) {
+    .butn {
+        font-size: .8rem;
+    }
+
+    .dashboard {
+        display: none;
+    }
+
+    .profile {
+        margin-left: 19rem;
+    }
+
+    .profile span {
+        margin-bottom: 10px;
+    }
+
+    .naviLink {
+        font-size: .55rem;
+        font-weight: bold;
+    }
+
+    .title {
+        font-size: .77rem;
+    }
+
+    .sliderBarResMenu {
+        font-size: .7rem;
+    }
+
+    .question1 h4 {
+        font-size: .8rem;
+    }
+
+    .question1 p {
+        font-size: .7rem;
+    }
+
+    .carding {
+        font-size: .5rem;
+    }
+
+    .fre1 {
+        font-size: .7rem;
+    }
+
+    .carDies .Dies {
+        font-size: .5rem;
+    }
+
+    .cardDiv i {
+        font-size: 15px;
+    }
+
+    .cRcle {
+        right: 1.2rem;
+    }
+
+    .carding h5 {
+        font-size: .8rem;
+    }
+
+    .carding p {
+        font-size: .7rem;
+    }
+
+    .fonts {
+        font-size: .7rem;
+    }
+
+    .card-body button {
+        margin-left: -.6rem;
+    }
+
+}
+
+@media only screen and (max-width:425px) {
+
+    .column9 {
+        flex-direction: column-reverse;
+    }
+
+    
+
+    .qaz {
+        margin-left: 8rem;
+    }
+
+    .socialMed {
+        display: none;
+    }
+
+    .cardhead {
+        display: none;
+    }
+
+    .cording {
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width:390px) {
+    .butn {
+        font-size: .7rem;
+    }
+
+    .naviLink {
+        font-size: .58rem;
+        display: flex;
+        justify-content: space-between;
+        font-weight: none !important;
+    }
+
+    .free {
+        width: 40px;
+        height: 15px;
+    }
+
+    .sliderBarResMenu .free {
+        width: 50px;
+        height: 20px;
+    }
+
+    .rightSlideBar ul:nth-child(2) li:nth-child(1) {
+        padding: .4rem 0 0 0 !important;
+    }
+
+    .rightSlideBar ul li {
+        font-size: 11px;
+        margin-left: 6px;
+        font-weight: 600;
+    }
+
+    #slideBarRes {
+        display: flex;
+    }
+
+    .sideContainer li {
+        font-size: .7rem;
+        font-weight: none !important;
+    }
+
+    .images {
+        height: 20px;
+    }
+
+    .profile {
+        margin-left: 1.3rem;
+    }
+
+    .mini1 span,
+    h6 {
+        font-size: .7rem;
+    }
+
+    .mini1 i {
+        font-size: .5rem;
+    }
+
+    .hed2 h3 {
+        font-size: .8rem;
+        font-weight: bold;
+    }
+
+    .textHow {
+        display: none;
+    }
+
+    .column9 {
+        flex-direction: column-reverse;
+    }
+
+    .carding p {
+        font-size: 17px;
+    }
+
+    .carding li {
+        font-size: 1rem;
+    }
+
+    .carding .fre1 {
+        margin-top: 5px;
+        font-size: .77rem;
+    }
+
+    .cardView h6 {
+        font-size: 1rem;
+    }
+
+    .carding p {
+        font-size: .9rem;
+    }
+
+    .cRcle {
+        left: 5rem;
+    }
+
+    .carDies .Dies {
+        font-size: .5rem;
+    }
+
+    .cardDiv {
+        height: 3.4vh;
+        width: 99%;
+        background-color: lightgray;
+    }
+
+}
