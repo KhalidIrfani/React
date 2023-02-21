@@ -1,27 +1,34 @@
 
 .input_Container{
     text-align: center;
-    font-size: auto;
+    border-radius: 3px;
+    font: size 30px;
     position: relative;
     margin-top: 5%;
     width: 40%;
     left: 30%;
     padding: 0 3rem 2rem 2rem;
     border-radius: 1rem;
+    color: #ffff;
     background-color: rgb(9, 99, 99);
 }
 
-.input_Conatiner h1{
+/* .input_Conatiner h1{
    align-items: center;
-
-}
-.input{
-    align-items: center;
-
-
    
+
+} */
+.input{
+    border-radius: 3px;
+    font-size: 25px;
 }
+ 
 .btn_primary{
-    background-color: rgb(138, 138, 224);
+    background-color: rgb(193, 193, 223);
+    border: none;
+    box-shadow: none;
+    border-radius: 2px;
+    font-size: 25px;
+    margin-left :40px ;
  
 }
