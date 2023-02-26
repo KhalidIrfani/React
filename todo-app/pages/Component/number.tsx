@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-
 import { Input, Button, Box, Table, Thead, Tbody, Tr, Th, Td, } from "@chakra-ui/react";
 import { addDoc, collection, deleteDoc, doc, getDocs } from 'firebase/firestore';
 import { db, storage } from '../../Firebase/firebaseConfig'
